@@ -6,6 +6,10 @@ android {
     namespace = "com.cecilia314.quizapp"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.cecilia314.quizapp"
         minSdk = 24
