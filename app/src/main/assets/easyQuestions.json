@@ -1,0 +1,84 @@
+{
+  "easyQuestions": [
+    {
+      "question": "What is the capital of France?",
+      "answerOne": "Madrid",
+      "answerTwo": "Paris",
+      "answerThree": "Rome",
+      "answerFour": "Berlin",
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "answerOne": "3",
+      "answerTwo": "4",
+      "answerThree": "5",
+      "answerFour": "6",
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answerOne": "Earth",
+      "answerTwo": "Venus",
+      "answerThree": "Mars",
+      "answerFour": "Jupiter",
+      "correctAnswer": "Mars"
+    },
+    {
+      "question": "What is the color of bananas?",
+      "answerOne": "Red",
+      "answerTwo": "Yellow",
+      "answerThree": "Green",
+      "answerFour": "Blue",
+      "correctAnswer": "Yellow"
+    },
+    {
+      "question": "How many continents are there?",
+      "answerOne": "5",
+      "answerTwo": "6",
+      "answerThree": "7",
+      "answerFour": "8",
+      "correctAnswer": "7"
+    },
+    {
+      "question": "What is the currency of the United States?",
+      "answerOne": "Euro",
+      "answerTwo": "Dollar",
+      "answerThree": "Pound",
+      "answerFour": "Yen",
+      "correctAnswer": "Dollar"
+    },
+    {
+      "question": "What is the largest mammal?",
+      "answerOne": "Elephant",
+      "answerTwo": "Blue Whale",
+      "answerThree": "Shark",
+      "answerFour": "Giraffe",
+      "correctAnswer": "Blue Whale"
+    },
+    {
+      "question": "Which day comes after Monday?",
+      "answerOne": "Sunday",
+      "answerTwo": "Tuesday",
+      "answerThree": "Wednesday",
+      "answerFour": "Thursday",
+      "correctAnswer": "Tuesday"
+    },
+    {
+      "question": "How many legs does a spider have?",
+      "answerOne": "6",
+      "answerTwo": "8",
+      "answerThree": "10",
+      "answerFour": "12",
+      "correctAnswer": "8"
+    },
+    {
+      "question": "What is the boiling point of water in Celsius?",
+      "answerOne": "90",
+      "answerTwo": "100",
+      "answerThree": "110",
+      "answerFour": "120",
+      "correctAnswer": "100"
+    }
+  ]
+}

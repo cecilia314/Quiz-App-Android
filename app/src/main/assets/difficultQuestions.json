@@ -1,0 +1,84 @@
+{
+  "difficultQuestions": [
+    {
+      "question": "What is the smallest prime number?",
+      "answerOne": "0",
+      "answerTwo": "1",
+      "answerThree": "2",
+      "answerFour": "3",
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answerOne": "Vincent van Gogh",
+      "answerTwo": "Leonardo da Vinci",
+      "answerThree": "Pablo Picasso",
+      "answerFour": "Michelangelo",
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "answerOne": "Sydney",
+      "answerTwo": "Melbourne",
+      "answerThree": "Canberra",
+      "answerFour": "Brisbane",
+      "correctAnswer": "Canberra"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "answerOne": "12",
+      "answerTwo": "14",
+      "answerThree": "16",
+      "answerFour": "18",
+      "correctAnswer": "12"
+    },
+    {
+      "question": "What element does 'O' represent on the periodic table?",
+      "answerOne": "Oxygen",
+      "answerTwo": "Osmium",
+      "answerThree": "Gold",
+      "answerFour": "Opal",
+      "correctAnswer": "Oxygen"
+    },
+    {
+      "question": "Which year did the Titanic sink?",
+      "answerOne": "1912",
+      "answerTwo": "1920",
+      "answerThree": "1905",
+      "answerFour": "1915",
+      "correctAnswer": "1912"
+    },
+    {
+      "question": "What is the speed of light in a vacuum?",
+      "answerOne": "300,000 km/s",
+      "answerTwo": "150,000 km/s",
+      "answerThree": "400,000 km/s",
+      "answerFour": "500,000 km/s",
+      "correctAnswer": "300,000 km/s"
+    },
+    {
+      "question": "What is the heaviest naturally occurring element?",
+      "answerOne": "Uranium",
+      "answerTwo": "Plutonium",
+      "answerThree": "Osmium",
+      "answerFour": "Lead",
+      "correctAnswer": "Uranium"
+    },
+    {
+      "question": "What is the chemical formula for table salt?",
+      "answerOne": "NaCl",
+      "answerTwo": "KCl",
+      "answerThree": "CaCl",
+      "answerFour": "HCl",
+      "correctAnswer": "NaCl"
+    },
+    {
+      "question": "What is the name of the longest river in the world?",
+      "answerOne": "Amazon",
+      "answerTwo": "Nile",
+      "answerThree": "Yangtze",
+      "answerFour": "Mississippi",
+      "correctAnswer": "Nile"
+    }
+  ]
+}

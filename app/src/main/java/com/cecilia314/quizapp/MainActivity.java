@@ -1,5 +1,6 @@
 package com.cecilia314.quizapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        setupCardClickListeners();
+
 
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
@@ -38,6 +41,24 @@ public class MainActivity extends AppCompatActivity {
                 showExitConfirmationDialog();
             }
         });
+    }
+
+    private void setupCardClickListeners() {
+        View.OnClickListener cardClickListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BasicQuizActivity.class);
+                if (v.getId() == R.id.easyCard) {
+                    intent.putExtra("level", "easy");
+                } else if (v.getId() == R.id.difficultCard) {
+                    intent.putExtra("level", "difficult");
+                }
+                startActivity(intent);
+            }
+        };
+
+        binding.easyCard.setOnClickListener(cardClickListener);
+        binding.difficultCard.setOnClickListener(cardClickListener);
     }
 
     private void showExitConfirmationDialog() {
