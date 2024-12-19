@@ -24,12 +24,14 @@ import java.util.Objects;
 
 public class BasicQuizActivity extends AppCompatActivity {
     private ActivityBasicQuizBinding binding;
+    public static int checked;
     List<QuestionItem> questionList;
     int currentQuestion = 0;
     int correctAnswers = 0, wrongAnswers = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ThemeManager.applyTheme(this);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
 

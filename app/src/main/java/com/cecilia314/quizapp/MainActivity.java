@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ThemeManager.applyTheme(this);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
 
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         setupCardClickListeners();
 
+        binding.aboutCard.setOnClickListener(
+                v -> startActivity(new Intent(MainActivity.this, AboutActivity.class))
+        );
 
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
